@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learing</title>
+</head>
+<body>
+    <form method="get">
+        <label for="mail" title="Please input your mail address">Email: </label>
+        <input id="mail" type="email" name="u_mail" required>
+        <br><br>
+        <label for="pass">Password: </label> 
+        <input id="pass" type="password" name="u_pass" required minlength="8" maxlength="12" title="Please input your password">
+
+        <br><br>
+        
+        <label for="country">Select Country</label>
+        <select name="place" id="country" title="select a country">
+            <option value="1">Bangladesh</option>
+            <option value="2">India</option>
+            <option value="3">Pakisthan</option>
+            <option value="4">Miyanmar</option>
+        </select>
+        <br><br>
+
+        <label for="">Hobbies</label><br>
+        <input type="checkbox" name="Hobby" value="Gardaning">Gardaning
+        <input type="checkbox" name="Hobby" value="Fishing">Fishing
+        <input type="checkbox" name="Hobby" value="Reading">Reading Books
+        <input type="checkbox" name="Hobby" value="Traveling">Traveling
+        <input type="checkbox" name="Hobby" value="Wresling">Wresling
+        <br><br>
+
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="unknown">Not to Disclose
+        <br><br>
+
+        <input type="file" name=" " id="">
+        <br><br>
+        <input type="submit" value="Signup">
+
+    </form>
+</body>
+</html>
