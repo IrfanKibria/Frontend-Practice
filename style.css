@@ -1,0 +1,39 @@
+footer{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    /* background-image: url(1.jpg); */
+}
+
+
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    background-color: black;
+    /* visibility: hidden; */
+    /* display: none/block/inline/inline-block; */
+    /* width: 400px; */
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    
+}
+
+#paragraph{
+    color: wheat;
+}
+
+.upper{
+    color: white;
+}
+
+.lower{
+    color: burlywood;
+}
